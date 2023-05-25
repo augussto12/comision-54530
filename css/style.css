@@ -49,7 +49,7 @@ nav a {
 .barraBusqueda {
     width: 100%;
     max-width: 200px;
-    height: 25px;
+    height: 35px;
     margin: 20px auto;
 }
 
@@ -470,50 +470,51 @@ footer{
 
 /* PAGINA CINE */
 
-.subtitulo5{
+.subtitulo5 {
     font-size: 45px;
 }
 
-/* 1er noticia */
-.titulo-opp{
+.titulo-opp,
+.titulo-barbie {
     text-align: center;
     padding-top: 30px;
     color: white;
     font-size: 25px;
 }
 
-.imagen-opp{
-    width: 500px;
-    height: 300px;
-    padding-left: 1120px;
-    padding-top: 10px;
+.imagen-opp,
+.imagen-barbie {
+    width: 100%;
+    height: auto;
 }
 
-.texto-opp{
-    font-size: 30px;
+.texto-opp,
+.texto-barbie {
+    font-size: 20px;
     margin: 30px;
     color: white;
 }
 
-/* 2da noticia */
-.titulo-barbie{
-    text-align: center;
-    padding-top: 30px;
-    color: white;
-    font-size: 25px;
+.noticias-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
 }
 
-.imagen-barbie{
-    width: 500px;
-    height: 300px;
-    padding-left: 1120px;
-    padding-top: 10px;
+  /* Media queries */
+@media (min-width: 768px) {
+    .noticias-container {
+    grid-template-columns: repeat(2, 1fr);
+    }
 }
 
-.texto-barbie{
-    font-size: 30px;
-    margin: 30px;
-    color: white;
+@media (max-width: 767px) {
+    .texto-opp,
+    .texto-barbie {
+font-size: 16px;
+margin: 15px;
+    }
 }
+
 
 
