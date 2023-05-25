@@ -1,23 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Ysabeau:wght@300&display=swap');
-header{
-    background-color: rgb(111, 92, 126);
-    height: 165px;
-}
 
-
-.encabezado{
-    background-image: url(../assets/img/FondoHeader.png);
-    background-position: center;
-    background-size: cover;
-}
-
-h1{
+h1 {
     letter-spacing: 3px;
     word-spacing: 600px;
     font-family: 'Irish Grover', cursive;
@@ -26,11 +15,6 @@ h1{
     padding-right: 160px;
     padding-top: 45px;
     color: white;
-    
-}
-
-.formulario{
-    -ms-flex-align: end;
 }
 
 .navegacion {
@@ -58,7 +42,7 @@ nav a {
 
 .barraBusqueda{
     width: 200px;
-    height: 25px; 
+    height: 25px;
     padding-top: 25px;
     padding-left: 1700px;
 }
@@ -105,7 +89,7 @@ a{
     line-height: 1;
     font-family: 'Ysabeau', sans-serif;
     font-size: 25px;
-    font-weight: 700; /*hacer mas grueso o mas fina la letra*/
+    font-weight: 700;
 }
 
 .imagen-texto {

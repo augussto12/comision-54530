@@ -12,22 +12,43 @@
 
 <body>
     <header class="encabezado">
-        <h1>ENTERTAINMENT ROOM</h1>
-        <form class="barraBusqueda" action="">
-            <label for=""></label>
-            <input type="search" placeholder="Buscar">
-        </form>
-        <nav class="navegacion">
-            <ul> 
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="noticias.html"></a></li>
-                <li><a href="esports.html">Esports</a></li>
-                <li><a href="videojuegos.html">Videojuegos</a></li>
-                <li><a href="cine.html">Cine</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="#">ENTERTAINMENT ROOM</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="noticias.html">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="esports.html">Esports</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="videojuegos.html">Videojuegos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cine.html">Cine</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
         </nav>
     </header>
+    
     <main>
         <section class="section-principal">
             <h2 class="subtitulo1">Noticias Destacadas</h2>
