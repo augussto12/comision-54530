@@ -58,11 +58,9 @@ nav a {
 
 .barraBusqueda{
     width: 200px;
-    height: 25px;
-    padding-left: 600px;
+    height: 25px; 
     padding-top: 25px;
-    margin-left: 1950px;
-    text-align: center;
+    padding-left: 1700px;
 }
 
 h2{
