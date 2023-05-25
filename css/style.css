@@ -6,20 +6,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Ysabeau:wght@300&display=swap');
 
+.encabezado-1{
+    height: 5px;
+} 
+
+.encabezado{
+    height: 150px;
+    background-color: rgb(61, 61, 190);
+}
+
 h1 {
-    letter-spacing: 3px;
-    word-spacing: 600px;
+    letter-spacing: 15px;
     font-family: 'Irish Grover', cursive;
     font-weight: 150;
     text-align: center;
-    padding-right: 160px;
-    padding-top: 45px;
-    color: white;
+    padding: 20px 20px 0;
+    color: rgb(255, 255, 255);
 }
 
 .navegacion {
     font-size: 25px;
-    margin-left: 20px;
     margin-top: -25px;
 }
 
@@ -28,11 +34,11 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    padding-right: 200px;
+    justify-content: center;
 }
 
 nav li {
-    margin-right: 100px;
+    margin-right: 20px;
 }
 
 nav a {
@@ -40,26 +46,54 @@ nav a {
     color: rgb(255, 255, 255);
 }
 
-.barraBusqueda{
-    width: 200px;
+.barraBusqueda {
+    width: 100%;
+    max-width: 200px;
     height: 25px;
-    padding-top: 25px;
-    padding-left: 1700px;
+    margin: 20px auto;
 }
 
-h2{
+h2 {
     text-align: center;
-    text-decoration:underline;
+    text-decoration: underline;
     color: white;
 }
 
-a{
+a {
     text-decoration: none;
 }
+
+  /* Media queries */
+@media (max-width: 768px) {
+    h1 {
+font-size: 30px;
+padding: 60px 20px 0;
+}
+
+    .navegacion {
+font-size: 20px;
+    }
+
+    nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+    nav li {
+    margin: 10px;
+    }
+
+    .barraBusqueda {
+    max-width: 100%;
+    padding: 10px;
+    }
+}
+
 
 /*TITULO*/
 .main {
     background-color: rgb(140, 92, 185);
+    height: 750px;
 }
 
 .section-principal{
