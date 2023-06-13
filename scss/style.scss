@@ -16,21 +16,12 @@
 
 
 
-
 @media (max-width: 576px) {
     .container {
     padding-left: 15px;
     padding-right: 15px;
     }
 }
-
-
-
-
-// PAGINA CINE //
-
-
-
 
 
 @media (max-width: 768px) {
@@ -40,144 +31,11 @@
 
 }
 
-// PAGINA ESPORTS //
-
-$primary-color: #007bff;
-$secondary-color: #6c757d;
-$text-color: #333;
-
-
-@mixin center-vertically {
-    display: flex;
-    align-items: center;
-}
-
-
-%imagen {
-    width: 100%;
-    height: auto;
-}
-
-
-body {
-    font-family: Arial, sans-serif;
-    color: $text-color;
-}
-
-header {
-    background-color: $primary-color;
-    padding: 10px 0;
-}
-
-.navbar-brand {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.nav-link {
-    color: #fff;
-    font-size: 16px;
-    margin-left: 10px;
-    
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.section-principal {
-    padding: 40px 0;
-}
-
-.subtitulo3 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
-
-.row {
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
-.noticia-1c,
-.noticia-2c {
-    padding: 15px;
-}
-
-.noticia-1c {
-    background-color: #f8f9fa;
-}
-
-.noticia-2c {
-    background-color: #e9ecef;
-}
-
-.img-fluid {
-    @extend %imagen;
-}
-
-.titulo-texto {
-    @include center-vertically;
-    flex-direction: column;
-}
-
-.titulo-val,
-.titulo-lol {
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.texto-val,
-.texto-lol {
-    margin-top: 10px;
-}
-
-.pie-de-pagina {
-    background-color: $secondary-color;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-}
-
-.redes {
-    font-size: 18px;
-    font-weight: bold;
-}
 
 // Media queries
 @media screen and (max-width: 767px) {
     .container {
     flex-direction: column;
     align-items: flex-start;
-}
-
-.navbar-nav {
-    margin-top: 15px;
-}
-
-.navbar-collapse {
-    justify-content: space-between;
-}
-
-.nav-link {
-    margin-left: 0;
-    margin-top: 10px;
-    display: block;
-}
-
-.form-inline {
-    margin-top: 10px;
-}
-
-.subtitulo3 {
-    font-size: 20px;
-}
-
-.noticia-1c,
-.noticia-2c {
-    padding: 15px 10px;
 }
 }

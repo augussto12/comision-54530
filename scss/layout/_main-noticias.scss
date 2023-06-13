@@ -1,0 +1,54 @@
+
+
+
+header {
+    background-color: $color-primary;
+}
+
+main {
+    padding: 20px;
+}
+
+.section-principal {
+    color: rgb(255, 255, 255);
+}
+
+.subtitulo2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.noticia-1b, .noticia-2b {
+    margin-bottom: 30px;
+}
+
+.titulo-e3, .titulo-gpt {
+    color: $color-primary;
+    margin-bottom: 10px;
+}
+
+.imagen-e3, .imagen-gpt {
+    width: 100%;
+    height: auto;
+}
+
+.imagen-textob, .imagen-texto2b {
+    @include center-element;
+    flex-direction: column;
+    text-align: center;
+}
+
+.textob, .texto2b {
+    margin-top: 10px;
+}
+
+.pie-de-pagina {
+    background-color: $color-primary;
+    padding: 10px;
+    text-align: center;
+}
+
+.redes {
+    color: white;
+}

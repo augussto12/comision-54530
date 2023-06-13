@@ -1,0 +1,55 @@
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-principal {
+    padding: 40px 0;
+}
+
+.subtitulo3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.noticia-1c,
+.noticia-2c {
+    padding: 15px;
+}
+
+.noticia-1c {
+    background-color: rgb(140, 92, 185);
+}
+
+.noticia-2c {
+    background-color: rgb(140, 92, 185);
+}
+
+.img-fluid {
+    @extend %imagen;
+}
+
+.titulo-texto {
+    @include center-vertically;
+    flex-direction: column;
+}
+
+.titulo-val,
+.titulo-lol {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.texto-val,
+.texto-lol {
+    margin-top: 10px;
+}
+

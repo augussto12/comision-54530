@@ -12,6 +12,7 @@ body {
 
 .mt-5 {
     margin-top: 5rem;
+    text-align: start;
 }
 
 .mt-4 {
@@ -20,6 +21,11 @@ body {
 
 .card {
     @include card-styles;
+}
+
+
+.text-center{
+    text-align: start;
 }
 
 .card-img-top {
