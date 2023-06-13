@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.encabezado-1 {
+    background-color: $color-primary;
+    color: $color-white;
+    padding: 10px;
+}
+
+.encabezado-1 .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.section-principal {
+    margin-top: 20px;
+}
+
+.subtitulo5 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.noticia-opp,
+.noticia-barbie {
+    margin-top: 20px;
+}
+
+.titulo-opp,
+.titulo-barbie {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.imagen-opp,
+.imagen-barbie {
+    width: 100%;
+    height: auto;
+}
+
+.texto-opp,
+.texto-barbie {
+    margin-top: 10px;
+}
+
+.titulo-opp,
+.titulo-barbie {
+    font-size: 20px;
+}
+
+.imagen-opp,
+.imagen-barbie {
+    width: 100%;
+    height: auto;
+}
+
+.texto-opp,
+.texto-barbie {
+    font-size: 14px;
+}

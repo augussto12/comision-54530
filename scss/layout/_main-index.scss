@@ -27,6 +27,9 @@ body {
     object-fit: cover;
 }
 
+.text-center {
+    @extend %text-center;
+}
 
 .main{
     background-color: rgb(140, 92, 185);
