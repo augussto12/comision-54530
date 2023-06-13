@@ -1,0 +1,520 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&family=Ysabeau:wght@300&display=swap');
+
+.encabezado-1{
+    height: 5px;
+} 
+
+.encabezado{
+    height: 150px;
+    background-color: #3d3dbe;
+}
+
+h1 {
+    letter-spacing: 15px;
+    font-family: 'Irish Grover', cursive;
+    font-weight: 150;
+    text-align: center;
+    padding: 20px 20px 0;
+    color: rgb(255, 255, 255);
+}
+
+.navegacion {
+    font-size: 25px;
+    margin-top: -25px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.barraBusqueda {
+    width: 100%;
+    max-width: 200px;
+    height: 35px;
+    margin: 20px auto;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+  /* Media queries */
+@media (max-width: 768px) {
+    h1 {
+font-size: 30px;
+padding: 60px 20px 0;
+}
+
+    .navegacion {
+font-size: 20px;
+    }
+
+    nav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+
+    nav li {
+    margin: 10px;
+    }
+
+    .barraBusqueda {
+    max-width: 100%;
+    padding: 10px;
+    }
+}
+
+
+/*TITULO*/
+.main {
+    background-color: rgb(140, 92, 185);
+    height: 750px;
+}
+
+.section-principal{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(111, 92, 126);
+    padding-top: 10px;
+}
+
+.subtitulo{
+    font-size: 30px;
+}
+
+/* NOTICIA NUMERO 1 */
+.noticia-1{
+    padding-bottom: 40px;
+}
+.noticia-1 h3{
+    text-align: left;
+    text-decoration:underline;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-left: 117px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.noticia-1 p{
+    text-indent: 20px;
+    word-spacing: 5px;
+    line-height: 1;
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.imagen-texto {
+    display: flex;
+    align-items: center;
+}
+
+.imagen {
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
+    padding-left: 50px;
+}
+
+.texto {
+    margin: 0;
+    color: white;
+}
+
+/* NOTICIA NUMERO 2 */
+.noticia-2{
+    padding-bottom: 40px;
+}
+.noticia-2 h3{
+    text-align: left;
+    text-decoration:underline;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-left: 95px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.noticia-2 p{
+    text-indent: 20px;
+    word-spacing: 5px;
+    line-height: 1;
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.imagen2{
+    width: 225px;
+    height: 300px;
+    margin-right: 10px;
+    padding-left: 90px;
+}
+.imagen-texto2{
+    display: flex;
+    align-items: center;
+}
+
+.texto2{
+    margin: 0;
+    color: white;
+}
+
+/* NOTICIA NUMERO 3 */
+.noticia-3 h3{
+    text-align: left;
+    text-decoration:underline;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding-left: 110px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.noticia-3 p{
+    text-indent: 20px;
+    word-spacing: 5px;
+    line-height: 1;
+    font-family: 'Ysabeau', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+
+.imagen3{
+    width: 280px;
+    height: 250px;
+    margin-right: 10px;
+    padding-left: 50px;
+}
+
+.imagen-texto3{
+    display: flex;
+    align-items: center;
+}
+
+.texto3{
+    margin: 0;
+    color: white;
+}
+
+/* FOOTER */
+footer{
+    height: 140px;
+    padding-top: 20px;
+}
+
+.pie-de-pagina{
+    background-image: url(../assets/img/FondoFooter.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.redes{
+    text-align: end;
+    padding-right: 600px;
+    padding-top: 5px;
+    font-size: 35px;
+}
+
+
+/* PAGINA NOTICIAS */
+
+.subtitulo2{
+    font-size: 40px;
+    text-align: start;
+    padding-left: 500px;
+}
+.titulo-e3{
+    font-size: 30px;
+    padding-left: 260px;
+    padding-left: 45%;
+    color: white;
+    text-decoration:underline;
+    text-transform: uppercase;
+}
+
+.imagen-e3{
+    width: 250px;
+    height: 200px;
+    padding-left: 45%;
+    padding-top: 15px;
+}
+
+.textob{
+    font-size: 30px;
+    color: white;
+    margin-left: 40px;
+}
+
+.titulo-gpt{
+    font-size: 30px;
+    padding-top: 50px;
+    padding-left: 47%;
+    color: white;
+    text-decoration:underline;
+    text-transform: uppercase;
+
+}
+
+.imagen-gpt{
+    width: 400px;
+    height: 250px;
+    padding-left: 43%;
+    padding-top: 15px;
+}
+
+.texto2b{
+    font-size: 30px;
+    margin: 40px;
+    color: white;
+}
+
+/* PAGINA ESPORTS */
+
+/* NOTICIA NUMERO 1 */
+.subtitulo3{
+    font-size: 50px;
+}
+
+.imagen-val{
+    width: 500px;
+    height: 300px;
+    margin: 70px;
+}
+
+.noticia-1c{
+    display: flex;
+    font-size: 20px;
+    color: white;
+}
+
+.titulo-texto{
+    padding-top: 160px;
+}
+
+.titulo-val{
+    padding-left: 500px;
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+
+/* NOTICIA NUMERO 2 */
+.imagen-lol{
+    width: 500px;
+    height: 300px;
+    margin: 70px;
+}
+
+.noticia-2c{
+    display: flex;
+    font-size: 20px;
+    color: white;
+}
+
+.titulo-texto2{
+    padding-top: 160px;
+}
+
+.titulo-lol{
+    padding-left: 600px;
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+
+/* PAGINA VIDEOJUEGOS */
+.subtitulo4{
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+/* PRIMERAS 2 NOTICIAS */
+.imagen-unrecord{
+    padding-top: 40px;
+    width: 400px;
+    height: 200px;
+}
+
+.texto-unrecord{
+    font-size: 30px;
+    padding-top: 30px;
+    margin: 15px;
+    color: white;
+}
+
+.noticia-unrecord{
+    display: flex;
+    align-items: center;
+}
+.imagen-ea{
+    padding-top: 40px;
+    width: 400px;
+    height: 200px;
+}
+
+.texto-ea{
+    font-size: 30px;
+    padding-top: 30px;
+    margin: 15px;
+    color: white;
+}
+
+.noticia-ea{
+    display: flex;
+    align-items: center;
+}
+
+.noticias1{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+
+/* 2DA PARTE DE NOTICIAS */
+.imagen-cod{
+    padding-top: 40px;
+    width: 400px;
+    height: 200px;
+}
+
+.texto-cod{
+    font-size: 30px;
+    padding-top: 30px;
+    margin: 15px;
+    color: white;
+}
+
+.noticia-cod{
+    display: flex;
+    align-items: center;
+}
+
+.imagen-elder{
+    padding-top: 40px;
+    padding-left: 380px;
+    width: 400px;
+    height: 200px;
+}
+
+.texto-elder{
+    font-size: 30px;
+    padding-top: 30px;
+    margin: 15px;
+    color: white;
+}
+
+.noticia-elder{
+    display: flex;
+    align-items: center;
+}
+
+.noticias2{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+}
+
+.imagen-cs2{
+    width: 440px;
+    height: 250px;
+    margin: 15px;
+    padding-left: 600px;
+}
+
+.ultima-noticia{
+    display: flex;
+    align-items: center;
+}
+
+.noticia-cs2{
+    color: white;
+}
+
+
+.titulo-cs2{
+    padding-left: 600px;
+    padding-bottom: 8px;
+    font-size: 40px;
+}
+
+.texto-cs2{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+/* PAGINA CINE */
+
+.subtitulo5 {
+    font-size: 45px;
+}
+
+.titulo-opp,
+.titulo-barbie {
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    font-size: 25px;
+}
+
+.imagen-opp,
+.imagen-barbie {
+    width: 100%;
+    height: auto;
+}
+
+.texto-opp,
+.texto-barbie {
+    font-size: 20px;
+    margin: 30px;
+    color: white;
+}
+
+.noticias-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+  /* Media queries */
+@media (min-width: 768px) {
+    .noticias-container {
+    grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    .texto-opp,
+    .texto-barbie {
+font-size: 16px;
+margin: 15px;
+    }
+}
+
+
+

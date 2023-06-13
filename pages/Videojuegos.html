@@ -5,67 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Videojuegos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
-    <header class="encabezado">
-        <h1>ENTERTAINMENT ROOM</h1>
-        <form class="barraBusqueda" action="">
-            <label for=""></label>
-            <input type="search" placeholder="Buscar">
-        </form>
-        <nav class="navegacion">
-            <ul> 
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="noticias.html"></a></li>
-                <li><a href="esports.html">Esports</a></li>
-                <li><a href="videojuegos.html">Videojuegos</a></li>
-                <li><a href="cine.html">Cine</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
+    <header class="encabezado-1">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="#">ENTERTAINMENT ROOM</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="noticias.html">Noticias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="esports.html">Esports</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="videojuegos.html">Videojuegos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cine.html">Cine</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
         <section class="section-principal">
             <h2 class="subtitulo4">Videojuegos</h2>
-            <div class="noticias1">
-                <article class="noticia-unrecord">
-                    <img src="../assets/img/unrecord.jpg" alt="imagen" class="imagen-unrecord">
-                    <p class="texto-unrecord">El juego que causa miedo por sus graficos. El estudio independiente Drama causó un furor en las redes cuando publicó el primer gameplay de Unrecord, su nuevo juego.
+            <div class="row">
+                <article class="col-md-6 noticia-unrecord">
+                    <img src="../assets/img/unrecord.jpg" alt="imagen" class="img-fluid imagen-unrecord">
+                    <p class="texto-unrecord">El juego que causa miedo por sus gráficos. El estudio independiente Drama causó un furor en las redes cuando publicó el primer gameplay de Unrecord, su nuevo juego.
                         Un juego de acción en primera persona en el que los jugadores controlan a un oficial de policía en diferentes misiones. Su gameplay parece una intervención real grabada desde una GoPro.</p>
                 </article>
-                <article class="noticia-ea">
-                    <img src="../assets/img/easportsfc.png" alt="imagen" class="imagen-ea">
-                    <p class="texto-ea">EA Sports FC, el nuevo nombre que va a reemplazar al FIFA. El estudio reveló información sobre el logo, las licencias y la fecha en la que se mostrará contenido del juego. 
+                <article class="col-md-6 noticia-ea">
+                    <img src="../assets/img/easportsfc.png" alt="imagen" class="img-fluid imagen-ea">
+                    <p class="texto-ea">EA Sports FC, el nuevo nombre que va a reemplazar al FIFA. El estudio reveló información sobre el logo, las licencias y la fecha en la que se mostrará contenido del juego.
                         EA Sports FC contará con los torneos tradicionales como LaLiga, la Premier League, la Champions League, la Copa Libertadores y la Copa Sudamericana.</p>
                 </article>
             </div>
-            <div class="noticias2">
-                <article class="noticia-cod">
-                    <img src="../assets/img/callofduty.jpg" alt="imagen" class="imagen-cod">
-                    <p class="texto-cod">¿Cuándo comienza la temporada 3 recargada de MW2 y Warzone 2? 
+            <div class="row">
+                <article class="col-md-6 noticia-cod">
+                    <img src="../assets/img/callofduty.jpg" alt="imagen" class="img-fluid imagen-cod">
+                    <p class="texto-cod">¿Cuándo comienza la temporada 3 recargada de MW2 y Warzone 2?
                         Se espera que la recarga de la temporada 3 llegue el miércoles 10 de mayo de 2023, aunque esto aún no ha sido confirmado oficialmente por los desarrolladores.</p>
                 </article>
-                <article class="noticia-elder">
-                    <img src="../assets/img/elderscrolls.jpg" alt="imagen" class="imagen-elder">
-                    <p class="texto-elder">Este juego de RPG multijugador de 2014 es furor y esta gratis en Steam. The Elder Scrolls Online es un videojuego de rol multijugador masivo en línea desarrollado por ZeniMax Online Studios y editado y distribuido por Bethesda Softworks.
+                <article class="col-md-6 noticia-elder">
+                    <img src="../assets/img/elderscrolls.jpg" alt="imagen" class="img-fluid imagen-elder">
+                    <p class="texto-elder">Este juego de RPG multijugador de 2014 es furor y está gratis en Steam. The Elder Scrolls Online es un videojuego de rol multijugador masivo en línea desarrollado por ZeniMax Online Studios y editado y distribuido por Bethesda Softworks.
                         Forma parte de la serie The Elder Scrolls, ambientándose mil años antes de los acontecimientos ocurridos en la quinta entrega.</p>
                 </article>
             </div>
-            <div class="ultima-noticia">
-                <img src="../assets/img/counter.jpg" alt="imagen" class="imagen-cs2">
-                <article class="noticia-cs2">
+            <div class="row">
+                <article class="col-md-6 noticia-cs2">
+                    <img src="../assets/img/counter.jpg" alt="imagen" class="img-fluid imagen-cs2">
                     <h3 class="titulo-cs2">Counter Strike 2</h3>
-                    <p class="texto-cs2">Valve por fin ha anunciado el esperadísimo Counter-Strike 2.La nueva versión de CS:GO incluye mapas renovados, iluminación mejorada, cambios en las granadas de humo y cambios en el sistema de audio entre otros muchos.
-                        Counter-Strike 2 llegará entre junio y septiembre como una actualización gratis de CS:GO, por lo que las personas que ya tienen descargado el título previo sólo deberán ingresar para descarar la nueva versión.</p>
+                    <p class="texto-cs2">Valve por fin ha anunciado el esperadísimo Counter-Strike 2. La nueva versión de CS:GO incluye mapas renovados, iluminación mejorada, cambios en las granadas de humo y cambios en el sistema de audio, entre otros muchos.
+                        Counter-Strike 2 llegará entre junio y septiembre como una actualización gratuita de CS:GO, por lo que las personas que ya tienen descargado el título previo solo deberán ingresar para descargar la nueva versión.</p>
                 </article>
             </div>
         </section>
-
     </main>
     <footer class="pie-de-pagina">
         <h3 class="redes">Redes Sociales</h3>
     </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
